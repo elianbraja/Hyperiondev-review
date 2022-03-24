@@ -61,14 +61,13 @@ can write them in human language and the purpose it to help you and probably you
 your code.
 
 Another thing to consider very carefully is the name of variables. Variables should be self-explanatory for what they
-held inside. Try to avoid using ~~i~~, ~~x~~, ~~strs~~, ~~result~~. Instead use _**word**_, _**sordedWord**_, _**words**_, _**
-anagrams**_ etc.
+held inside. Try to avoid using ~~i~~, ~~x~~, ~~strs~~, ~~result~~. Instead use _**word**_, _**sordedWord**_, _**words**_, **_anagrams_** etc.
 
 Below I am providing the correct solution, including even best practices and suggestions. Good job and keep practicing!
 
 Solution:
 
-```
+```Python
 class Anagrams:
    def groupAnagrams(self, words):
       anagrams = {}
@@ -93,3 +92,4 @@ anagramObj = Anagrams()
 
 #print the grouped anagrams by array
 print(anagramObj.groupAnagrams(["eat", "tea", "tan", "ate", "nat", "bat"]))
+```
